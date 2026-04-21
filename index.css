@@ -1,0 +1,82 @@
+
+/* General page style */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsla(0, 24%, 50%, 0.67);
+}
+
+/* Header */
+header {
+  background-color: #4f58bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  height: 60px;
+}
+
+.image {
+  width: 35px;
+  height: 35px;
+}
+
+/* Main layout */
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Journal entry card */
+.journal-entry {
+  display: flex;
+  gap: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image container */
+.main-image-container {
+  flex-shrink: 0;
+}
+
+/* Image styling */
+.main-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Text section */
+.journal-entry h2 {
+  margin: 5px 0;
+}
+
+.journal-entry span {
+  font-weight: bold;
+  color: #f55a5a;
+  margin-right: 10px;
+}
+
+/* Google maps link */
+.journal-entry a {
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.journal-entry a:hover {
+  text-decoration: underline;
+}
+
+/* Dates */
+.journal-entry p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
